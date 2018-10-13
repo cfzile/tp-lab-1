@@ -1,8 +1,9 @@
-//
-// Created by Admin on 11.10.2018.
-//
+#include <vector>
+#include <malloc.h>
+#include <map>
+#include <iostream>
+#include <algorithm>
 
-#ifndef TASK1_TASK4_H
-#define TASK1_TASK4_H
+#define INF 100000
 
-#endif //TASK1_TASK4_H
+using namespace std;

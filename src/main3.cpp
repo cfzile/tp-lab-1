@@ -1,4 +1,9 @@
-//
-// Created by Admin on 11.10.2018.
-//
+#include "task3.cpp"
 
+int main() {
+
+    unsigned int hbound;
+    cin >> hbound;
+    cout << sumPrime (hbound);
+
+}

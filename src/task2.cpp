@@ -13,19 +13,21 @@ bool checkPrime (unsigned long long value) {
 
 }
 
-vector<unsigned> primes;
+vector<long long> primes;
 
 void findPrimes (unsigned max){
 
     bool was[INF + 1];
 
-    unsigned i = 2;
+    primes.clear();
+
+    long long i = 2;
 
     while (primes.size() < max){
 
         if (!was[i]){
 
-            for (unsigned j = i * i; j <= INF; j += i)
+            for (long long j = i * i; j <= INF; j += i)
                 was[j] = true;
 
             primes.push_back(i);
@@ -43,7 +45,7 @@ unsigned long long nPrime (unsigned n) {
     if (primes.size() < n)
         findPrimes (n);
 
-    return primes[n - 1];
+    return (unsigned long long) primes[n - 1];
 
 }
 

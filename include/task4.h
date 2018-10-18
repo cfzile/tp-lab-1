@@ -7,3 +7,5 @@
 #define INF 100000
 
 using namespace std;
+
+char * sum (char *x, char *y);

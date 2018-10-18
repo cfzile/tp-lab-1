@@ -6,3 +6,5 @@
 #define INF 100000
 
 using namespace std;
+
+unsigned long long sumPrime(unsigned int hbound);
